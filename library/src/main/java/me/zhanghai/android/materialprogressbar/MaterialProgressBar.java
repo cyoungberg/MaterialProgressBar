@@ -126,6 +126,14 @@ public class MaterialProgressBar extends ProgressBar {
         }
         a.recycle();
 
+        setStyleThing(setBothDrawables, determinateCircularProgressStyle);
+        setUseIntrinsicPadding(useIntrinsicPadding);
+        setShowProgressBackground(showProgressBackground);
+    }
+
+    private void setStyleThing(boolean setBothDrawables, int determinateCircularProgressStyle) {
+        Context context = getContext();
+
         switch (mProgressStyle) {
             case PROGRESS_STYLE_CIRCULAR:
                 if (isIndeterminate() || setBothDrawables) {
@@ -153,8 +161,6 @@ public class MaterialProgressBar extends ProgressBar {
             default:
                 throw new IllegalArgumentException("Unknown progress style: " + mProgressStyle);
         }
-        setUseIntrinsicPadding(useIntrinsicPadding);
-        setShowProgressBackground(showProgressBackground);
     }
 
     @Override
