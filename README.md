@@ -4,6 +4,8 @@
 
 Material Design `ProgressBar` with consistent appearance on Android 4.0+.
 
+## Junk Junk
+
 ## Why MaterialProgressBar?
 
 - Consistent appearance on Android 4.0+.
