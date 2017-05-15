@@ -122,6 +122,8 @@ Neither Support v4 nor AppCompat v7 backported animation API to versions prior t
 
 ## Feature FOO-321
 
+Added a thing I forgot
+
 ## License
 
     Copyright 2017 Zhang Hai
